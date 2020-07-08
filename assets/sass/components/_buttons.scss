@@ -1,0 +1,25 @@
+.button {
+background-color: $white;
+border: 1px solid $smokyblack;
+color: $smokyblack;
+cursor: pointer;
+font-family: $raleway;
+font-size: $small;
+font-weight: $bold;
+padding: 10px; }
+
+
+.button:hover {
+border-color: $quicksilver;
+}
+
+.button:focus {
+border-color: $quicksilver;
+color: $quicksilver;
+}
+
+@media (min-width: 768px) {
+.button {
+font-size: $large;
+padding: 10px 20px; }
+}
